@@ -1,0 +1,52 @@
+<html>
+
+
+
+<head>
+
+    <script>
+
+ function veiculo( modelo, cor, preco) {
+
+    this.modelo = modelo;
+    this.cor = cor;
+    this.preco = preco;
+
+    this.apresentar = function () {
+        console.log("O veiculo " + this.modelo.toUpperCase() + " " + ", cor " + this.cor + ",  tem o valor de R$" + this.preco)
+    }
+}
+
+
+
+const veiculo1 = new veiculo("corsa","prata" ,15000)
+const veiculo2 = new veiculo("fox", "Branco", 20000)
+const veiculo3 = new veiculo("hb20", "azul", 25000)
+
+
+carro1.apresentar();
+carro2.apresentar();
+carro3.apresentar();
+
+        
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+</head>
+
+
+
+
+
+
+
+</html>
